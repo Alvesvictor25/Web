@@ -1,0 +1,136 @@
+@charset "UTF-8";
+body {
+    width: 100%;
+    background-color: rgba(243, 243, 243, 0.822);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tabelaspec {
+border-spacing: 0px;
+}
+
+.tabelaspec tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.tabelaspec td {
+    color: #ffffff;
+    padding: 5px 10px;
+    border-bottom: solid 1px rgba(0 , 0, 0, 0.5);
+} 
+body h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+}
+.organizar {
+    display: block;
+    margin: 90px 250px;
+    width: 800px;
+    word-wrap: break-word;
+}
+body h1::before {
+    content: '';
+    border: solid 1px navy;
+    width: 800px;
+    height: 2px;
+    display: block;
+    background-color: navy;
+    margin-bottom: 30px;
+}
+.foto-legenda img{
+    height: 50%;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px rgba(0 , 0, 0, 0.5);
+}
+.organizar {
+    display: block;
+    top: 50px;
+}
+#imagem {
+    height: 20%;
+    width: 50%;
+}
+.div_tabela {
+    opacity: 1;
+    background: url("/Imagens/wp4655435-bmw-s1000rr-2019-wallpapers.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 800px 600px;
+    background-color: #ffffff;
+
+}
+ul#album-fotos li span {
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 800;
+    background-color: rgba(243, 243, 243, 0.822);
+    line-height: 620px;
+   
+}
+ul#album-fotos li span::after{
+    content: '';
+    width: 10px;
+    height: 2px;
+    color: royalblue;
+    display: block;
+    margin: 0 auto;
+}
+ul#album-fotos {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li{
+    padding: 0px;
+    float: left;
+    height: 343px;
+    background-color: rgba(243, 243, 243, 0.822);
+  
+}
+#ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}
+#foto01 {
+    background: url('/Imagens/_fotosTelaInicial/traseira.png') no-repeat;
+    width: 274.406px;
+}
+#foto01:hover {
+    background-position: 0px 0px;
+    background-size: auto;
+}
+#foto02 {
+    background: url('/Imagens/_fotosTelaInicial/amortecedor.png') no-repeat;
+    width: 274.406px;
+}
+#foto03 {
+    background: url('/Imagens/_fotosTelaInicial/paineltft.png') no-repeat;
+    width: 518.797px;
+}
+#foto04 {
+    background: url('/Imagens/_fotosTelaInicial/multicontrol.png') no-repeat;
+    width: 274.406px;
+}
+#foto05 {
+    background: url('/Imagens/_fotosTelaInicial/luzesled.png')no-repeat;
+    width: 264.406px;
+}
+#foto06 {
+    width: 401.594px;
+    background: url('/Imagens/_fotosTelaInicial/Sem333.png') no-repeat;
+}
+#foto07 {
+    background: url('/Imagens/_fotosTelaInicial/detalhes.png') no-repeat;
+    width: 274.406px
+}
+#foto08 {
+    background: url('/Imagens/_fotosTelaInicial/bracooscilante.png') no-repeat;
+    width: 401.594px;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+ }
+ 
