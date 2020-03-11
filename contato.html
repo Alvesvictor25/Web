@@ -19,30 +19,28 @@
                 <input type="text" class="form-control" name="tCep" id="cCep" placeholder="CEP"/>
                 <input type="text" class="form-control" name="tNumero" id="cNum" placeholder="Número"/>
                 <input type="text" class="form-control" name="tComplemento" id="cCompl" placeholder="Complemento"/>
-                <input type="text" class="form-control" name="tLogradouro" id="cLog" placeholder="Cidade"/>
-
-                <label for="cEst" class="form-control">Estado</label>
+                <input type="text" class="form-control" name="tCidade" id="cLog" placeholder="Cidade"/>
                 <select name="tEst" id="cEst">
+                        <option selected>Selecione o Estado...</option>
                     <optgroup label="Região-Suldeste">
                         <option value="SP">São Paulo</option>
                         <option value="RJ">Rio de Janeiro</option>
                         <option value="MG">Minas Gerais</option>
                     </optgroup>
                     <optgroup label="Região-Sul">
-                        <option value="SC" selected>Santa Catarina</option>
+                        <option value="SC">Santa Catarina</option>
                         <option value="PR">Paraná</option>
                         <option value="RS">Rio Grande do Sul</option>
                     </optgroup>
             </fieldset>
                
             <fieldset>
-                <textarea cols="30" rows="10"> 
-
-                </textarea>
+                <textarea cols="40" rows="8" id="textarea"> 
+                 </textarea>
             </fieldset>
                 
             
-            [BOTÃO ENVIAR]
+            <button class="destaque botao">Enviar</button>
         </form>
     </body>
 </html>

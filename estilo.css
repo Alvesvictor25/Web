@@ -56,79 +56,43 @@ body h1::before {
     background-color: #ffffff;
 
 }
-ul#album-fotos li span {
-    opacity: 1;
-    color: rgba(0, 0, 0, 0.8);
-    font-weight: 800;
-    background-color: rgba(243, 243, 243, 0.822);
-    line-height: 620px;
-   
-}
-ul#album-fotos li span::after{
-    content: '';
-    width: 10px;
-    height: 2px;
-    color: royalblue;
-    display: block;
-    margin: 0 auto;
-}
-ul#album-fotos {
-    display: block;
+div.painel {
+    display: inline-block;
     position: relative;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    list-style: none;
+    background-color:  #ffffff;
+    width: 320px;
 }
 
-ul#album-fotos li{
-    padding: 0px;
-    float: left;
-    height: 343px;
-    background-color: rgba(243, 243, 243, 0.822);
-  
+div.painel p {
+    background-color: #ffffff;
+    position: absolute;
+    display: block;
+    bottom: 10px;
+    width: 100%;
+    height: 70px;
+    opacity: 0;
+    transition: .8s;
+    box-sizing: border-box;
+    
 }
-#ul#album-fotos li:hover {
-    -webkit-transform: scale(1.5);
+div.painel:hover p {
+    opacity: 1;
+    font-weight: 600;
+    font-size: 13pt;
+    padding: 5px 10px;
 }
-#foto01 {
-    background: url('/Imagens/_fotosTelaInicial/traseira.png') no-repeat;
-    width: 274.406px;
+div.painel p::after {
+    content: '';
+    width: 200px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    background-color: #606060;
+   
 }
-#foto01:hover {
-    background-position: 0px 0px;
-    background-size: auto;
-}
-#foto02 {
-    background: url('/Imagens/_fotosTelaInicial/amortecedor.png') no-repeat;
-    width: 274.406px;
-}
-#foto03 {
-    background: url('/Imagens/_fotosTelaInicial/paineltft.png') no-repeat;
-    width: 518.797px;
-}
-#foto04 {
-    background: url('/Imagens/_fotosTelaInicial/multicontrol.png') no-repeat;
-    width: 274.406px;
-}
-#foto05 {
-    background: url('/Imagens/_fotosTelaInicial/luzesled.png')no-repeat;
-    width: 264.406px;
-}
-#foto06 {
-    width: 401.594px;
-    background: url('/Imagens/_fotosTelaInicial/Sem333.png') no-repeat;
-}
-#foto07 {
-    background: url('/Imagens/_fotosTelaInicial/detalhes.png') no-repeat;
-    width: 274.406px
-}
-#foto08 {
-    background: url('/Imagens/_fotosTelaInicial/bracooscilante.png') no-repeat;
-    width: 401.594px;
-}
+
+
 html, body{
     margin: 0;
     padding: 0;

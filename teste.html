@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        div#painel {
+            display: block;
+            position: relative;
+            background-color:  #ffffff;
+            width: 320px;
+        }
+       
+        div#painel p {
+            background-color: #ffffff;
+            position: absolute;
+            display: block;
+            bottom: 10px;
+            width: 100%;
+            height: 70px;
+            opacity: 0;
+            transition: .8s;
+            box-sizing: border-box;
+            
+        }
+        div#painel:hover p {
+            opacity: 1;
+            font-weight: 600;
+            font-size: 13pt;
+            padding: 5px 10px;
+        }
+        div#painel p::after {
+            content: '';
+            width: 200px;
+            height: 4px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 8px;
+            background-color: #606060;
+           
+        }
+        </style>
+        
+    </head>
+    <body>
+        <div id="painel">
+            <img src="./Imagens/_fotosTelaInicial/amortecedor.png">
+            <p>Controle de Amortecimento(DDC)de última geração.</p>
+        </div>
+    </body>
+</html>
